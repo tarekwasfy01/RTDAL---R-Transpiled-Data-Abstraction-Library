@@ -1,6 +1,6 @@
 # RTDAL
 
-RTDAL is a Pure-Go, R-transpiled data abstraction toolbox. The uniform command
+RTDAL is a Pure-Go, R-transpiled data abstraction toolbox for GIS. The uniform command
 syntax is:
 
 ```text
