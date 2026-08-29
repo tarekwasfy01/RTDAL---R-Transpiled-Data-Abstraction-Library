@@ -1,0 +1,5 @@
+Package: Matrix
+Version: 1.7-5
+Source: https://cran.r-project.org/package=Matrix
+Declared-License: GPL (>= 2) | file LICENCE
+Transpile-Class: mixed-r-native-boundary

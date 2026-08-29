@@ -1,0 +1,5 @@
+Package: lubridate
+Version: 1.9.5
+Source: https://cran.r-project.org/package=lubridate
+Declared-License: MIT + file LICENSE
+Transpile-Class: mixed-r-native-boundary

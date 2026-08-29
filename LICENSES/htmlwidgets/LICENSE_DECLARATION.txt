@@ -1,0 +1,5 @@
+Package: htmlwidgets
+Version: 1.6.4
+Source: https://cran.r-project.org/package=htmlwidgets
+Declared-License: MIT + file LICENSE
+Transpile-Class: pure-r-candidate

@@ -1,0 +1,5 @@
+Package: sfheaders
+Version: 0.4.5
+Source: https://cran.r-project.org/package=sfheaders
+Declared-License: MIT + file LICENSE
+Transpile-Class: mixed-r-native-boundary

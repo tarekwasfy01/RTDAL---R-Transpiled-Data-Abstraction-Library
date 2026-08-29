@@ -1,0 +1,5 @@
+Package: s2
+Version: 1.1.11
+Source: https://cran.r-project.org/package=s2
+Declared-License: Apache License (== 2.0)
+Transpile-Class: mixed-r-native-boundary

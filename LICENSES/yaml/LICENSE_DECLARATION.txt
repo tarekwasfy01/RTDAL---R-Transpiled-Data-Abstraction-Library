@@ -1,0 +1,5 @@
+Package: yaml
+Version: 2.3.12
+Source: https://cran.r-project.org/package=yaml
+Declared-License: BSD_3_clause + file LICENSE
+Transpile-Class: mixed-r-native-boundary

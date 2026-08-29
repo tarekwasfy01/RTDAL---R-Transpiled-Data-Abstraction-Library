@@ -1,0 +1,5 @@
+Package: nleqslv
+Version: 3.3.7
+Source: https://cran.r-project.org/package=nleqslv
+Declared-License: GPL (>= 2)
+Transpile-Class: mixed-r-native-boundary

@@ -1,0 +1,5 @@
+Package: lattice
+Version: 0.22-9
+Source: https://cran.r-project.org/package=lattice
+Declared-License: GPL (>= 2)
+Transpile-Class: mixed-r-native-boundary

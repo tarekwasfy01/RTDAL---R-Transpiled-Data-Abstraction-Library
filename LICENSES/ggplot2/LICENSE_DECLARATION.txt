@@ -1,0 +1,5 @@
+Package: ggplot2
+Version: 4.0.3
+Source: https://cran.r-project.org/package=ggplot2
+Declared-License: MIT + file LICENSE
+Transpile-Class: pure-r-candidate

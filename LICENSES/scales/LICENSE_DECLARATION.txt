@@ -1,0 +1,5 @@
+Package: scales
+Version: 1.4.0
+Source: https://cran.r-project.org/package=scales
+Declared-License: MIT + file LICENSE
+Transpile-Class: pure-r-candidate

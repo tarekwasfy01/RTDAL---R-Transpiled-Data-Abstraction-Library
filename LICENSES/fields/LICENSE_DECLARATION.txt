@@ -1,0 +1,5 @@
+Package: fields
+Version: 17.3
+Source: https://cran.r-project.org/package=fields
+Declared-License: GPL (>= 2)
+Transpile-Class: mixed-r-native-boundary

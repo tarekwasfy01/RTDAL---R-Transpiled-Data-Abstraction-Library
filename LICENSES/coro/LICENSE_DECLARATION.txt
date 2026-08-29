@@ -1,0 +1,5 @@
+Package: coro
+Version: 1.1.0
+Source: https://cran.r-project.org/package=coro
+Declared-License: MIT + file LICENSE
+Transpile-Class: pure-r-candidate

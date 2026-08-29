@@ -1,0 +1,5 @@
+Package: stringdist
+Version: 0.9.17
+Source: https://cran.r-project.org/package=stringdist
+Declared-License: GPL-3
+Transpile-Class: mixed-r-native-boundary

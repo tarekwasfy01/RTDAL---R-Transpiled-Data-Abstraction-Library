@@ -1,0 +1,5 @@
+Package: geodist
+Version: 0.1.1
+Source: https://cran.r-project.org/package=geodist
+Declared-License: MIT + file LICENSE
+Transpile-Class: mixed-r-native-boundary

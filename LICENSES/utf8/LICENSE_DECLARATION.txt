@@ -1,0 +1,5 @@
+Package: utf8
+Version: 1.2.6
+Source: https://cran.r-project.org/package=utf8
+Declared-License: Apache License (== 2.0) | file LICENSE
+Transpile-Class: mixed-r-native-boundary

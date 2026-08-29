@@ -1,0 +1,5 @@
+Package: vctrs
+Version: 0.7.3
+Source: https://cran.r-project.org/package=vctrs
+Declared-License: MIT + file LICENSE
+Transpile-Class: mixed-r-native-boundary

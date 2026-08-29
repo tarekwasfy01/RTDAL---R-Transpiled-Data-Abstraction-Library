@@ -1,0 +1,5 @@
+Package: promises
+Version: 1.5.0
+Source: https://cran.r-project.org/package=promises
+Declared-License: MIT + file LICENSE
+Transpile-Class: mixed-r-native-boundary

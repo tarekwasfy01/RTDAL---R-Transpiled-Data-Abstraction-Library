@@ -1,0 +1,5 @@
+Package: knitr
+Version: 1.51
+Source: https://cran.r-project.org/package=knitr
+Declared-License: GPL
+Transpile-Class: pure-r-candidate

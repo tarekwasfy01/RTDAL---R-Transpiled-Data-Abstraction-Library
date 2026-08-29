@@ -1,0 +1,5 @@
+Package: htmltools
+Version: 0.5.9
+Source: https://cran.r-project.org/package=htmltools
+Declared-License: GPL (>= 2)
+Transpile-Class: mixed-r-native-boundary

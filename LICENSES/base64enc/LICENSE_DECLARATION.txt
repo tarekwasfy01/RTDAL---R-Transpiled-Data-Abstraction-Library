@@ -1,0 +1,5 @@
+Package: base64enc
+Version: 0.1-6
+Source: https://cran.r-project.org/package=base64enc
+Declared-License: GPL-2 | GPL-3
+Transpile-Class: mixed-r-native-boundary

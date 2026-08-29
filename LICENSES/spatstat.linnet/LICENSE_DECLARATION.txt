@@ -1,0 +1,5 @@
+Package: spatstat.linnet
+Version: 3.5-3
+Source: https://cran.r-project.org/package=spatstat.linnet
+Declared-License: GPL (>= 2)
+Transpile-Class: mixed-r-native-boundary

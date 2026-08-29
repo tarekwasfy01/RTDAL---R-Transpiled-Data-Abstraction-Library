@@ -1,0 +1,5 @@
+Package: spam
+Version: 2.11-4
+Source: https://cran.r-project.org/package=spam
+Declared-License: LGPL-2 | BSD_3_clause + file LICENSE
+Transpile-Class: mixed-r-native-boundary

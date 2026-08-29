@@ -1,0 +1,5 @@
+Package: quantreg
+Version: 6.1
+Source: https://cran.r-project.org/package=quantreg
+Declared-License: GPL (>= 2)
+Transpile-Class: mixed-r-native-boundary

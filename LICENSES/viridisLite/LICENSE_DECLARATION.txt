@@ -1,0 +1,5 @@
+Package: viridisLite
+Version: 0.4.3
+Source: https://cran.r-project.org/package=viridisLite
+Declared-License: MIT + file LICENSE
+Transpile-Class: pure-r-candidate

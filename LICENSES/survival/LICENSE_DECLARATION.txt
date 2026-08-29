@@ -1,0 +1,5 @@
+Package: survival
+Version: 3.8-6
+Source: https://cran.r-project.org/package=survival
+Declared-License: LGPL (>= 2)
+Transpile-Class: mixed-r-native-boundary

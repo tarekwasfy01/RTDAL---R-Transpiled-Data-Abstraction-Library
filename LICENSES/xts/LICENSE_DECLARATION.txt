@@ -1,0 +1,5 @@
+Package: xts
+Version: 0.14.2
+Source: https://cran.r-project.org/package=xts
+Declared-License: GPL (>= 2)
+Transpile-Class: mixed-r-native-boundary

@@ -1,0 +1,5 @@
+Package: tibble
+Version: 3.3.1
+Source: https://cran.r-project.org/package=tibble
+Declared-License: MIT + file LICENSE
+Transpile-Class: mixed-r-native-boundary

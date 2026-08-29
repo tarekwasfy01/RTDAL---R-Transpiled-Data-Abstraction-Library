@@ -1,0 +1,5 @@
+Package: maps
+Version: 3.4.3
+Source: https://cran.r-project.org/package=maps
+Declared-License: GPL-2
+Transpile-Class: mixed-r-native-boundary

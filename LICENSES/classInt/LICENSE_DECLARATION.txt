@@ -1,0 +1,5 @@
+Package: classInt
+Version: 0.4-11
+Source: https://cran.r-project.org/package=classInt
+Declared-License: GPL (>= 2)
+Transpile-Class: mixed-r-native-boundary

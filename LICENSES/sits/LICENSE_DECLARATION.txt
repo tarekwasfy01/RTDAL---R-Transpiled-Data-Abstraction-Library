@@ -1,0 +1,5 @@
+Package: sits
+Version: 1.5.4
+Source: https://cran.r-project.org/package=sits
+Declared-License: GPL-2
+Transpile-Class: mixed-r-native-boundary

@@ -1,0 +1,5 @@
+Package: progress
+Version: 1.2.3
+Source: https://cran.r-project.org/package=progress
+Declared-License: MIT + file LICENSE
+Transpile-Class: mixed-r-native-boundary

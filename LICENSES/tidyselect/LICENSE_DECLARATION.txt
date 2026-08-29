@@ -1,0 +1,5 @@
+Package: tidyselect
+Version: 1.2.1
+Source: https://cran.r-project.org/package=tidyselect
+Declared-License: MIT + file LICENSE
+Transpile-Class: mixed-r-native-boundary

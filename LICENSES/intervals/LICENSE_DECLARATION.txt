@@ -1,0 +1,5 @@
+Package: intervals
+Version: 0.15.5
+Source: https://cran.r-project.org/package=intervals
+Declared-License: Artistic-2.0
+Transpile-Class: mixed-r-native-boundary

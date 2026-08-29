@@ -1,0 +1,5 @@
+Package: class
+Version: 7.3-23
+Source: https://cran.r-project.org/package=class
+Declared-License: GPL-2 | GPL-3
+Transpile-Class: mixed-r-native-boundary

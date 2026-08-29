@@ -1,0 +1,5 @@
+Package: tmaptools
+Version: 3.3
+Source: https://cran.r-project.org/package=tmaptools
+Declared-License: GPL-3
+Transpile-Class: pure-r-candidate

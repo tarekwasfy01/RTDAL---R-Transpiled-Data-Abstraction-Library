@@ -1,0 +1,5 @@
+Package: pkgconfig
+Version: 2.0.3
+Source: https://cran.r-project.org/package=pkgconfig
+Declared-License: MIT + file LICENSE
+Transpile-Class: pure-r-candidate

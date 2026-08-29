@@ -1,0 +1,5 @@
+Package: spatstat.model
+Version: 3.7-2
+Source: https://cran.r-project.org/package=spatstat.model
+Declared-License: GPL (>= 2)
+Transpile-Class: mixed-r-native-boundary

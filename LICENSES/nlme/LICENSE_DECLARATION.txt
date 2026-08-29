@@ -1,0 +1,5 @@
+Package: nlme
+Version: 3.1-169
+Source: https://cran.r-project.org/package=nlme
+Declared-License: GPL (>= 2)
+Transpile-Class: mixed-r-native-boundary

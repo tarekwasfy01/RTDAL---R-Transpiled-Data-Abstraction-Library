@@ -1,0 +1,5 @@
+Package: mime
+Version: 0.13
+Source: https://cran.r-project.org/package=mime
+Declared-License: GPL
+Transpile-Class: mixed-r-native-boundary

@@ -1,0 +1,207 @@
+package,version,license,license_class,needs_compilation,source_available,r_files,r_lines,native_files,r_native_call_sites,transpile_class,dependencies
+abind,1.4-8,MIT + file LICENSE,permissive-or-weak,no,true,10,876,0,0,pure-r-candidate,methods;utils
+ape,5.8-1,GPL-2 | GPL-3,copyleft,yes,true,130,20623,36,67,mixed-r-native-boundary,Rcpp;digest;graphics;lattice;methods;nlme;parallel;stats;utils
+askpass,1.2.1,MIT + file LICENSE,permissive-or-weak,yes,true,6,190,2,0,mixed-r-native-boundary,sys
+assertthat,0.2.1,GPL-3,copyleft,no,true,20,963,0,0,pure-r-candidate,tools
+base,4.6.1,Part of R 4.6.1,review-required,,false,0,0,0,0,source-missing,
+base64enc,0.1-6,GPL-2 | GPL-3,copyleft,yes,true,4,72,4,8,mixed-r-native-boundary,
+BH,1.90.0-1,BSL-1.0,review-required,no,true,1,5,0,0,pure-r-candidate,
+bit,4.6.0,GPL-2 | GPL-3,copyleft,yes,true,22,8564,9,115,mixed-r-native-boundary,
+bit64,4.8.4,GPL-2 | GPL-3,copyleft,yes,true,27,14598,7,141,mixed-r-native-boundary,bit;graphics;methods;stats;utils
+boot,1.3-32,Unlimited,permissive-or-weak,no,true,1,13,0,0,pure-r-candidate,graphics;stats
+bslib,0.12.0,MIT + file LICENSE,permissive-or-weak,no,true,125,25388,1,0,mixed-r-native-boundary,base64enc;cachem;fastmap;grDevices;htmltools;jquerylib;jsonlite;lifecycle;memoise;mime;rlang;sass
+cachem,1.1.0,MIT + file LICENSE,permissive-or-weak,yes,true,12,2008,2,1,mixed-r-native-boundary,fastmap;rlang
+callr,3.8.0,MIT + file LICENSE,permissive-or-weak,no,true,60,8737,0,5,mixed-r-native-boundary,R6;otel;processx;utils
+class,7.3-23,GPL-2 | GPL-3,copyleft,yes,true,5,498,1,9,mixed-r-native-boundary,MASS;stats;utils
+classInt,0.4-11,GPL (>= 2),copyleft,yes,true,9,1408,2,1,mixed-r-native-boundary,KernSmooth;class;e1071;grDevices;graphics;stats
+cli,3.6.6,MIT + file LICENSE,permissive-or-weak,yes,true,170,28403,32,95,mixed-r-native-boundary,utils
+cluster,2.1.8.2,GPL (>= 2),copyleft,yes,true,26,2137,10,6,mixed-r-native-boundary,grDevices;graphics;stats;utils
+codetools,0.2-20,GPL,copyleft,no,true,2,1326,0,0,pure-r-candidate,
+colorspace,2.1-3,BSD_3_clause + file LICENSE,permissive-or-weak,yes,true,42,10966,2,12,mixed-r-native-boundary,grDevices;graphics;methods;stats
+cols4all,0.10,GPL-3,copyleft,no,true,40,7336,0,0,pure-r-candidate,abind;colorspace;grDevices;methods;png;spacesXYZ;stats;stringdist
+compiler,4.6.1,Part of R 4.6.1,review-required,,false,0,0,0,0,source-missing,
+constrainedKriging,0.2-11,GPL (>= 2),copyleft,yes,true,31,3336,2,1,mixed-r-native-boundary,grDevices;graphics;methods;parallel;sf;sp;spatialCovariance;stats
+coro,1.1.0,MIT + file LICENSE,permissive-or-weak,no,true,32,5537,0,0,pure-r-candidate,rlang
+cpp11,0.5.5,MIT + file LICENSE,permissive-or-weak,no,true,19,2390,9,13,mixed-r-native-boundary,
+crayon,1.5.3,MIT + file LICENSE,permissive-or-weak,no,true,35,2951,0,0,pure-r-candidate,grDevices;methods;utils
+crosstalk,1.2.2,MIT + file LICENSE,permissive-or-weak,no,true,8,1388,0,0,pure-r-candidate,R6;htmltools;jsonlite;lazyeval
+curl,7.1.0,MIT + file LICENSE,permissive-or-weak,yes,true,51,3487,26,41,mixed-r-native-boundary,
+data.table,1.18.4,MPL-2.0 | file LICENSE,review-required,yes,true,67,12488,47,181,mixed-r-native-boundary,methods
+datasets,4.6.1,Part of R 4.6.1,review-required,,false,0,0,0,0,source-missing,
+DBI,1.3.0,LGPL (>= 2.1),copyleft,no,true,182,6676,0,0,pure-r-candidate,methods
+deldir,2.0-4,GPL (>= 2),copyleft,yes,true,42,2081,36,7,mixed-r-native-boundary,grDevices;graphics
+DEoptimR,1.2-1,GPL (>= 2),copyleft,no,true,7,1575,0,0,pure-r-candidate,methods;stats
+desc,1.4.3,MIT + file LICENSE,permissive-or-weak,no,true,50,6378,0,0,pure-r-candidate,R6;cli;utils
+digest,0.6.39,GPL (>= 2),copyleft,yes,true,23,2771,19,14,mixed-r-native-boundary,utils
+dotCall64,1.2,GPL (>= 2),copyleft,yes,true,10,774,5,5,mixed-r-native-boundary,
+dplyr,1.2.1,MIT + file LICENSE,permissive-or-weak,yes,true,202,40738,12,25,mixed-r-native-boundary,R6;cli;generics;glue;lifecycle;magrittr;methods;pillar;rlang;tibble;tidyselect;utils;vctrs
+e1071,1.7-17,GPL-2 | GPL-3,copyleft,yes,true,37,3766,6,9,mixed-r-native-boundary,class;grDevices;graphics;methods;proxy;stats;utils
+evaluate,1.0.5,MIT + file LICENSE,permissive-or-weak,no,true,36,2883,0,0,pure-r-candidate,
+exactextractr,0.10.1,Apache License (== 2.0),permissive-or-weak,yes,true,23,4864,41,5,mixed-r-native-boundary,Rcpp;methods;raster;sf
+farver,2.1.2,MIT + file LICENSE,permissive-or-weak,yes,true,17,940,6,9,mixed-r-native-boundary,
+fastmap,1.2.0,MIT + file LICENSE,permissive-or-weak,yes,true,12,2159,2,16,mixed-r-native-boundary,
+fields,17.3,GPL (>= 2),copyleft,yes,true,234,23480,9,27,mixed-r-native-boundary,RColorBrewer;maps;methods;spam;viridisLite
+FNN,1.1.4.1,GPL (>= 2),copyleft,yes,true,4,604,21,14,mixed-r-native-boundary,
+fontawesome,0.5.3,MIT + file LICENSE,permissive-or-weak,no,true,15,1224,0,0,pure-r-candidate,htmltools;rlang
+foreign,0.8-91,GPL (>= 2),copyleft,yes,true,26,2218,14,10,mixed-r-native-boundary,methods;stats;utils
+fs,2.1.0,MIT + file LICENSE,permissive-or-weak,yes,true,46,5838,15,35,mixed-r-native-boundary,methods
+generics,0.1.4,MIT + file LICENSE,permissive-or-weak,no,true,44,1044,0,0,pure-r-candidate,methods
+geodist,0.1.1,MIT + file LICENSE,permissive-or-weak,yes,true,13,1493,16,48,mixed-r-native-boundary,
+geojsonsf,2.0.5,MIT + file LICENSE,permissive-or-weak,yes,true,30,2776,7,10,mixed-r-native-boundary,Rcpp;geometries;jsonify;rapidjsonr;sfheaders
+geometries,0.2.5,MIT + file LICENSE,permissive-or-weak,yes,true,23,1825,12,36,mixed-r-native-boundary,Rcpp
+georob,0.3-23,GPL (>= 2) | LGPL (>= 2),copyleft,no,true,12,20884,0,0,pure-r-candidate,abind;constrainedKriging;fields;graphics;lmtest;methods;nleqslv;nlme;parallel;quantreg;robustbase;snowfall;sp;stats;utils
+ggplot2,4.0.3,MIT + file LICENSE,permissive-or-weak,no,true,339,64641,0,0,pure-r-candidate,S7;cli;grDevices;grid;gtable;isoband;lifecycle;rlang;scales;stats;vctrs;withr
+glue,1.8.1,MIT + file LICENSE,permissive-or-weak,yes,true,26,3218,3,2,mixed-r-native-boundary,methods
+goftest,1.2-3,GPL (>= 2),copyleft,yes,true,6,514,3,4,mixed-r-native-boundary,stats
+graphics,4.6.1,Part of R 4.6.1,review-required,yes,false,0,0,0,0,source-missing,grDevices
+grDevices,4.6.1,Part of R 4.6.1,review-required,yes,false,0,0,0,0,source-missing,
+grid,4.6.1,Part of R 4.6.1,review-required,yes,false,0,0,0,0,source-missing,grDevices;utils
+gstat,2.1-6,GPL (>= 2.0),copyleft,yes,true,98,8623,25,30,mixed-r-native-boundary,FNN;graphics;lattice;methods;sf;sftime;sp;spacetime;stars;stats;utils;zoo
+gtable,0.3.6,MIT + file LICENSE,permissive-or-weak,no,true,30,2937,0,0,pure-r-candidate,cli;glue;grid;lifecycle;rlang;stats
+gtfsio,1.2.1,MIT + file LICENSE,permissive-or-weak,no,true,27,4102,0,0,pure-r-candidate,data.table;fs;jsonlite;utils;zip
+highr,0.12,GPL,copyleft,no,true,6,375,0,0,pure-r-candidate,xfun
+hms,1.1.4,MIT + file LICENSE,permissive-or-weak,no,true,29,1629,0,0,pure-r-candidate,cli;lifecycle;methods;pkgconfig;rlang;vctrs
+htmltools,0.5.9,GPL (>= 2),copyleft,yes,true,28,9691,2,1,mixed-r-native-boundary,base64enc;digest;fastmap;grDevices;rlang;utils
+htmlwidgets,1.6.4,MIT + file LICENSE,permissive-or-weak,no,true,16,1903,0,0,pure-r-candidate,grDevices;htmltools;jsonlite;knitr;rmarkdown;yaml
+httpuv,1.6.17,GPL (>= 2) | file LICENSE,copyleft,yes,true,24,4307,343,20,mixed-r-native-boundary,R6;Rcpp;later;promises;utils
+httr,1.4.8,MIT + file LICENSE,permissive-or-weak,no,true,82,5731,0,0,pure-r-candidate,R6;curl;jsonlite;mime;openssl
+httr2,1.3.0,MIT + file LICENSE,permissive-or-weak,no,true,145,19566,0,0,pure-r-candidate,R6;cli;curl;glue;lifecycle;magrittr;openssl;rlang;vctrs;withr
+igraph,2.3.3,GPL (>= 2),copyleft,yes,true,162,100281,906,1168,mixed-r-native-boundary,Matrix;cli;cpp11;grDevices;graphics;lifecycle;magrittr;methods;pkgconfig;rlang;stats;utils;vctrs
+intervals,0.15.5,Artistic-2.0,permissive-or-weak,yes,true,27,1511,5,3,mixed-r-native-boundary,graphics;methods;utils
+isoband,0.3.0,MIT + file LICENSE,permissive-or-weak,yes,true,21,3824,8,5,mixed-r-native-boundary,cli;cpp11;grid;rlang;utils
+jpeg,0.1-11,GPL-2 | GPL-3,copyleft,yes,true,3,132,3,3,mixed-r-native-boundary,
+jquerylib,0.1.4,MIT + file LICENSE,permissive-or-weak,no,true,4,72,0,0,pure-r-candidate,htmltools
+jsonify,1.2.3,MIT + file LICENSE,permissive-or-weak,yes,true,26,2090,7,13,mixed-r-native-boundary,Rcpp;rapidjsonr
+jsonlite,2.0.0,MIT + file LICENSE,permissive-or-weak,yes,true,101,3423,29,21,mixed-r-native-boundary,methods
+KernSmooth,2.23-26,Unlimited,permissive-or-weak,yes,true,3,915,12,8,mixed-r-native-boundary,stats
+knitr,1.51,GPL,copyleft,no,true,65,11895,0,0,pure-r-candidate,evaluate;highr;methods;tools;xfun;yaml
+labeling,0.4.3,MIT + file LICENSE | Unlimited,permissive-or-weak,no,true,1,882,0,0,pure-r-candidate,graphics;stats
+landscapemetrics,2.2.1,GPL-3,copyleft,yes,true,337,23641,15,16,mixed-r-native-boundary,Rcpp;RcppArmadillo;cli;ggplot2;methods;stats;terra;tibble
+later,1.4.8,MIT + file LICENSE,permissive-or-weak,yes,true,11,1859,15,20,mixed-r-native-boundary,Rcpp;rlang
+lattice,0.22-9,GPL (>= 2),copyleft,yes,true,55,21915,2,2,mixed-r-native-boundary,grDevices;graphics;grid;stats;utils
+lazyeval,0.2.3,GPL-3,copyleft,yes,true,38,2503,40,13,mixed-r-native-boundary,rlang
+leafem,0.2.5,MIT + file LICENSE,permissive-or-weak,no,true,23,4705,0,0,pure-r-candidate,base64enc;geojsonsf;htmltools;htmlwidgets;jsonlite;leaflet;methods;png;raster;sf
+leafgl,0.2.4,MIT + file LICENSE,permissive-or-weak,no,true,18,3600,0,0,pure-r-candidate,grDevices;htmltools;leaflet;sf;yyjsonr
+leaflegend,1.2.8,MIT + file LICENSE,permissive-or-weak,no,true,3,4045,0,0,pure-r-candidate,base64enc;htmltools;htmlwidgets;leaflet;stats
+leaflet,2.2.3,MIT + file LICENSE,permissive-or-weak,no,true,53,7580,0,0,pure-r-candidate,RColorBrewer;crosstalk;htmltools;htmlwidgets;jquerylib;leaflet.providers;magrittr;methods;png;raster;rlang;scales;sf;stats;viridisLite;xfun
+leaflet.providers,3.0.0,BSD_2_clause + file LICENSE,permissive-or-weak,no,true,7,1497,0,0,pure-r-candidate,htmltools
+leafsync,0.1.0,MIT + file LICENSE,permissive-or-weak,no,true,2,212,0,0,pure-r-candidate,htmltools;htmlwidgets;leaflet;methods
+lifecycle,1.0.5,MIT + file LICENSE,permissive-or-weak,no,true,29,3219,0,0,pure-r-candidate,cli;rlang
+lmtest,0.9-40,GPL-2 | GPL-3,copyleft,yes,true,18,1806,2,1,mixed-r-native-boundary,graphics;stats;zoo
+logger,0.4.2,MIT + file LICENSE,permissive-or-weak,no,true,34,3899,0,0,pure-r-candidate,utils
+lubridate,1.9.5,MIT + file LICENSE,permissive-or-weak,yes,true,87,18943,5,7,mixed-r-native-boundary,generics;methods;timechange
+luz,0.5.2,MIT + file LICENSE,permissive-or-weak,no,true,46,6913,0,0,pure-r-candidate,R6;cli;coro;fs;generics;glue;magrittr;prettyunits;progress;purrr;rlang;torch;zeallot
+lwgeom,0.2-17,GPL-2,copyleft,yes,true,27,1309,77,29,mixed-r-native-boundary,Rcpp;sf;units
+magrittr,2.0.5,MIT + file LICENSE,permissive-or-weak,yes,true,19,1520,2,1,mixed-r-native-boundary,
+maps,3.4.3,GPL-2,copyleft,yes,true,9,1462,7,20,mixed-r-native-boundary,graphics;utils
+maptiles,0.12.0,GPL-3,copyleft,no,true,11,1346,0,0,pure-r-candidate,curl;digest;grDevices;graphics;png;sf;terra;tools;utils
+MASS,7.3-65,GPL-2 | GPL-3,copyleft,yes,true,71,10489,2,14,mixed-r-native-boundary,grDevices;graphics;methods;stats;utils
+Matrix,1.7-5,GPL (>= 2) | file LICENCE,copyleft,yes,true,80,29344,683,395,mixed-r-native-boundary,grDevices;graphics;grid;lattice;methods;stats;utils
+MatrixModels,0.5-4,GPL (>= 2),copyleft,no,true,4,975,0,0,pure-r-candidate,Matrix;methods;stats
+memoise,2.0.1,MIT + file LICENSE,permissive-or-weak,no,true,12,1221,0,0,pure-r-candidate,cachem;rlang
+methods,4.6.1,Part of R 4.6.1,review-required,yes,false,0,0,0,0,source-missing,stats;utils
+mgcv,1.9-4,GPL (>= 2),copyleft,yes,true,22,37275,17,122,mixed-r-native-boundary,Matrix;graphics;methods;nlme;splines;stats;utils
+mime,0.13,GPL,copyleft,yes,true,5,1878,2,1,mixed-r-native-boundary,tools
+nleqslv,3.3.7,GPL (>= 2),copyleft,yes,true,34,4086,22,2,mixed-r-native-boundary,
+nlme,3.1-169,GPL (>= 2),copyleft,yes,true,59,20899,11,73,mixed-r-native-boundary,graphics;lattice;stats;utils
+nnet,7.3-20,GPL-2 | GPL-3,copyleft,yes,true,4,911,1,12,mixed-r-native-boundary,stats;utils
+openssl,2.4.2,MIT + file LICENSE,permissive-or-weak,yes,true,59,4222,30,101,mixed-r-native-boundary,askpass
+otel,0.2.0,MIT + file LICENSE,permissive-or-weak,no,true,38,6943,0,0,pure-r-candidate,
+parallel,4.6.1,Part of R 4.6.1,review-required,yes,false,0,0,0,0,source-missing,compiler;tools
+pillar,1.11.1,MIT + file LICENSE,permissive-or-weak,no,true,112,10111,0,0,pure-r-candidate,cli;glue;lifecycle;rlang;utf8;utils;vctrs
+pkgconfig,2.0.3,MIT + file LICENSE,permissive-or-weak,no,true,8,347,0,0,pure-r-candidate,utils
+png,0.1-9,GPL-2 | GPL-3,copyleft,yes,true,2,27,3,4,mixed-r-native-boundary,
+polyclip,1.10-7,BSL,review-required,yes,true,2,281,3,6,mixed-r-native-boundary,
+prettyunits,1.2.0,MIT + file LICENSE,permissive-or-weak,no,true,20,1441,0,0,pure-r-candidate,
+prioritizr,8.1.0,GPL-3,copyleft,yes,true,337,83891,34,57,mixed-r-native-boundary,BH;Matrix;R6;Rcpp;RcppArmadillo;ape;assertthat;cli;exactextractr;igraph;magrittr;methods;parallel;raster;rlang;sf;terra;tibble;units;utils;withr
+processx,3.9.0,MIT + file LICENSE,permissive-or-weak,yes,true,57,11331,27,11,mixed-r-native-boundary,R6;ps;utils
+progress,1.2.3,MIT + file LICENSE,permissive-or-weak,no,true,9,1185,2,3,mixed-r-native-boundary,R6;crayon;hms;prettyunits
+promises,1.5.0,MIT + file LICENSE,permissive-or-weak,no,true,40,6364,1,0,mixed-r-native-boundary,R6;fastmap;later;lifecycle;magrittr;otel;rlang
+proxy,0.4-29,GPL-2 | GPL-3,copyleft,yes,true,13,2431,5,53,mixed-r-native-boundary,stats;utils
+ps,1.9.3,MIT + file LICENSE,permissive-or-weak,yes,true,48,8110,22,75,mixed-r-native-boundary,utils
+purrr,1.2.2,MIT + file LICENSE,permissive-or-weak,yes,true,119,11867,11,19,mixed-r-native-boundary,cli;lifecycle;magrittr;rlang;vctrs
+quantreg,6.1,GPL (>= 2),copyleft,yes,true,61,9405,41,27,mixed-r-native-boundary,MASS;Matrix;MatrixModels;SparseM;graphics;methods;stats;survival
+R6,2.6.1,MIT + file LICENSE,permissive-or-weak,no,true,27,5242,0,0,pure-r-candidate,
+randomForest,4.7-1.2,GPL (>= 2),copyleft,yes,true,24,1690,7,4,mixed-r-native-boundary,stats
+rapidjsonr,1.2.1,MIT + file LICENSE,permissive-or-weak,no,true,1,11,0,0,pure-r-candidate,
+rappdirs,0.3.4,MIT + file LICENSE,permissive-or-weak,yes,true,12,728,2,1,mixed-r-native-boundary,
+raster,3.6-32,GPL (>= 3),copyleft,yes,true,322,40252,25,50,mixed-r-native-boundary,Rcpp;methods;sp;terra
+RColorBrewer,1.1-3,Apache License 2.0,permissive-or-weak,no,true,1,1010,0,0,pure-r-candidate,
+Rcpp,1.1.2,GPL (>= 2),copyleft,yes,true,115,14194,87,64,mixed-r-native-boundary,methods;utils
+RcppArmadillo,15.4.2-1,GPL (>= 2),copyleft,yes,true,30,2914,17,9,mixed-r-native-boundary,Rcpp;methods;stats;utils
+rlang,1.3.0,MIT + file LICENSE,permissive-or-weak,yes,true,163,44735,72,283,mixed-r-native-boundary,utils
+rmarkdown,2.31,GPL-3,copyleft,no,true,86,15490,0,0,pure-r-candidate,bslib;evaluate;fontawesome;htmltools;jquerylib;jsonlite;knitr;methods;tinytex;tools;utils;xfun;yaml
+robustbase,0.99-7,GPL (>= 2),copyleft,yes,true,90,21245,14,36,mixed-r-native-boundary,DEoptimR;graphics;methods;stats;utils
+rpart,4.1.27,GPL-2 | GPL-3,copyleft,yes,true,52,3491,31,5,mixed-r-native-boundary,grDevices;graphics;stats
+rstac,1.0.1,MIT + file LICENSE,permissive-or-weak,no,true,48,9415,0,0,pure-r-candidate,crayon;grid;httr;jpeg;jsonlite;magrittr;png;sf;utils
+s2,1.1.11,Apache License (== 2.0),permissive-or-weak,yes,true,45,6499,299,119,mixed-r-native-boundary,Rcpp;wk
+S7,0.2.2,MIT + file LICENSE,permissive-or-weak,yes,true,61,8156,3,6,mixed-r-native-boundary,utils
+safetensors,0.3.0,MIT + file LICENSE,permissive-or-weak,no,true,7,658,0,0,pure-r-candidate,R6;cli;jsonlite;rlang
+sass,0.4.10,MIT + file LICENSE,permissive-or-weak,yes,true,40,4768,69,2,mixed-r-native-boundary,R6;fs;htmltools;rappdirs;rlang
+scales,1.4.0,MIT + file LICENSE,permissive-or-weak,no,true,95,9801,0,0,pure-r-candidate,R6;RColorBrewer;cli;farver;glue;labeling;lifecycle;rlang;viridisLite
+servr,0.33,GPL,copyleft,no,true,6,976,0,0,pure-r-candidate,httpuv;jsonlite;mime;xfun
+sf,1.1-2,GPL-2 | MIT + file LICENSE,permissive-or-weak,yes,true,122,22344,21,109,mixed-r-native-boundary,DBI;Rcpp;classInt;grDevices;graphics;grid;methods;s2;stats;tools;units;utils
+sfheaders,0.4.5,MIT + file LICENSE,permissive-or-weak,yes,true,45,9433,11,52,mixed-r-native-boundary,Rcpp;geometries
+sftime,0.3.2,Apache License,permissive-or-weak,no,true,12,2158,0,0,pure-r-candidate,methods;sf
+sits,1.5.4,GPL-2,copyleft,yes,true,252,69165,26,70,mixed-r-native-boundary,Rcpp;RcppArmadillo;dplyr;grDevices;graphics;httr2;leafgl;leaflet;lubridate;luz;parallel;purrr;randomForest;rstac;sf;slider;stats;terra;tibble;tidyr;tmap;torch;units;utils;yaml
+slider,0.3.3,MIT + file LICENSE,permissive-or-weak,yes,true,72,15082,14,22,mixed-r-native-boundary,cli;rlang;vctrs;warp
+snow,0.4-4,GPL,copyleft,no,true,6,1152,0,1,mixed-r-native-boundary,utils
+snowfall,1.84-6.3,GPL,copyleft,no,true,5,2688,0,0,pure-r-candidate,snow
+sp,2.2-3,GPL (>= 2),copyleft,yes,true,84,10268,8,26,mixed-r-native-boundary,grDevices;graphics;grid;lattice;methods;stats;utils
+spacesXYZ,1.6-0,GPL (>= 3),copyleft,no,true,19,3732,0,0,pure-r-candidate,logger
+spacetime,1.3-3,GPL (>= 2),copyleft,no,true,45,4825,0,0,pure-r-candidate,graphics;intervals;lattice;methods;sp;stats;utils;xts;zoo
+spam,2.11-4,LGPL-2 | BSD_3_clause + file LICENSE,permissive-or-weak,yes,true,81,14513,19,21,mixed-r-native-boundary,Rcpp;dotCall64;grid;methods
+SparseM,1.84-2,GPL (>= 2),copyleft,yes,true,8,2243,9,24,mixed-r-native-boundary,graphics;methods;stats;utils
+spatial,7.3-18,GPL-2 | GPL-3,copyleft,yes,true,3,749,3,27,mixed-r-native-boundary,graphics;stats;utils
+spatialCovariance,0.6-9,GPL,copyleft,no,true,11,1219,0,0,pure-r-candidate,
+spatstat,3.6-2,GPL (>= 2),copyleft,no,true,17,3958,0,0,pure-r-candidate,spatstat.data;spatstat.explore;spatstat.geom;spatstat.linnet;spatstat.model;spatstat.random;spatstat.univar;spatstat.utils;utils
+spatstat.data,3.1-9,GPL (>= 2),copyleft,no,true,1,44,0,0,pure-r-candidate,Matrix;spatstat.utils
+spatstat.explore,3.8-2,GPL (>= 2),copyleft,yes,true,162,38409,21,58,mixed-r-native-boundary,Matrix;abind;goftest;grDevices;graphics;methods;nlme;spatstat.data;spatstat.geom;spatstat.random;spatstat.sparse;spatstat.univar;spatstat.utils;stats;utils
+spatstat.geom,3.8-2,GPL (>= 2),copyleft,yes,true,170,42601,41,126,mixed-r-native-boundary,deldir;grDevices;graphics;methods;polyclip;spatstat.data;spatstat.univar;spatstat.utils;stats;utils
+spatstat.linnet,3.5-3,GPL (>= 2),copyleft,yes,true,72,16998,18,25,mixed-r-native-boundary,Matrix;grDevices;graphics;methods;spatstat.data;spatstat.explore;spatstat.geom;spatstat.model;spatstat.random;spatstat.sparse;spatstat.univar;spatstat.utils;stats;utils
+spatstat.model,3.7-2,GPL (>= 2),copyleft,yes,true,172,46750,9,10,mixed-r-native-boundary,Matrix;abind;goftest;grDevices;graphics;methods;mgcv;nlme;rpart;spatstat.data;spatstat.explore;spatstat.geom;spatstat.random;spatstat.sparse;spatstat.univar;spatstat.utils;stats;tensor;utils
+spatstat.random,3.5-1,GPL (>= 2),copyleft,yes,true,53,14378,28,20,mixed-r-native-boundary,Matrix;grDevices;methods;spatstat.data;spatstat.geom;spatstat.sparse;spatstat.univar;spatstat.utils;stats;utils
+spatstat.sparse,3.2-0,GPL (>= 2),copyleft,yes,true,11,2955,4,16,mixed-r-native-boundary,Matrix;abind;methods;spatstat.utils;stats;tensor;utils
+spatstat.univar,3.2-0,GPL (>= 2),copyleft,yes,true,26,3367,10,16,mixed-r-native-boundary,graphics;spatstat.utils;stats
+spatstat.utils,3.2-4,GPL (>= 2),copyleft,yes,true,24,4193,11,26,mixed-r-native-boundary,grDevices;graphics;methods;stats;utils
+spData,2.3.5,CC0,review-required,no,true,38,1567,0,0,pure-r-candidate,sp
+spdep,1.4-2,GPL (>= 2),copyleft,yes,true,101,12541,18,28,mixed-r-native-boundary,boot;deldir;e1071;grDevices;graphics;methods;s2;sf;sp;spData;stats;units;utils
+splines,4.6.1,Part of R 4.6.1,review-required,yes,false,0,0,0,0,source-missing,graphics;stats
+stars,0.7-3,Apache License,permissive-or-weak,no,true,96,13731,0,0,pure-r-candidate,abind;methods;parallel;rlang;sf;units
+stats,4.6.1,Part of R 4.6.1,review-required,yes,false,0,0,0,0,source-missing,grDevices;graphics;utils
+stats4,4.6.1,Part of R 4.6.1,review-required,,false,0,0,0,0,source-missing,graphics;methods;stats
+stringdist,0.9.17,GPL-3,copyleft,yes,true,23,2879,13,10,mixed-r-native-boundary,parallel
+stringi,1.8.9,file LICENSE,review-required,yes,true,49,11073,531,193,mixed-r-native-boundary,stats;tools;utils
+stringr,1.6.0,MIT + file LICENSE,permissive-or-weak,no,true,70,6362,0,0,pure-r-candidate,cli;glue;lifecycle;magrittr;rlang;stringi;vctrs
+survival,3.8-6,LGPL (>= 2),copyleft,yes,true,281,39876,67,77,mixed-r-native-boundary,Matrix;graphics;methods;splines;stats;utils
+sys,3.4.3,MIT + file LICENSE,permissive-or-weak,yes,true,15,593,3,2,mixed-r-native-boundary,
+tcltk,4.6.1,Part of R 4.6.1,review-required,yes,false,0,0,0,0,source-missing,utils
+tensor,1.5.1,GPL (>= 2),copyleft,no,true,1,73,0,0,pure-r-candidate,
+terra,1.9-46,GPL (>= 3),copyleft,yes,true,178,36552,53,40,mixed-r-native-boundary,Rcpp;methods
+tibble,3.3.1,MIT + file LICENSE,permissive-or-weak,yes,true,94,11310,4,5,mixed-r-native-boundary,cli;lifecycle;magrittr;methods;pillar;pkgconfig;rlang;utils;vctrs
+tidyr,1.3.2,MIT + file LICENSE,permissive-or-weak,yes,true,79,16797,3,2,mixed-r-native-boundary,cli;cpp11;dplyr;glue;lifecycle;magrittr;purrr;rlang;stringr;tibble;tidyselect;utils;vctrs
+tidyselect,1.2.1,MIT + file LICENSE,permissive-or-weak,yes,true,44,5555,0,0,mixed-r-native-boundary,cli;glue;lifecycle;rlang;vctrs;withr
+tidytransit,1.8.0,GPL,copyleft,no,true,39,5215,0,0,pure-r-candidate,data.table;digest;dplyr;geodist;gtfsio;hms;jsonlite;sf
+timechange,0.4.0,GPL (>= 3),copyleft,yes,true,16,3266,16,12,mixed-r-native-boundary,cpp11
+tinytex,0.60,MIT + file LICENSE,permissive-or-weak,no,true,12,1952,0,0,pure-r-candidate,xfun
+tmap,4.4-1,GPL-3,copyleft,no,true,162,31892,0,0,pure-r-candidate,base64enc;classInt;cli;cols4all;data.table;grid;htmltools;htmlwidgets;leafem;leafgl;leaflegend;leaflet;leafsync;maptiles;methods;rlang;s2;servr;sf;stars;stats;tmaptools;units
+tmaptools,3.3,GPL-3,copyleft,no,true,17,1361,0,0,pure-r-candidate,XML;lwgeom;methods;sf;stars;stats;units
+tools,4.6.1,Part of R 4.6.1,review-required,yes,false,0,0,0,0,source-missing,
+torch,0.17.0,MIT + file LICENSE,permissive-or-weak,yes,true,237,116479,37,3934,mixed-r-native-boundary,R6;Rcpp;bit64;callr;cli;coro;desc;glue;jsonlite;magrittr;methods;rlang;safetensors;scales;stats;tools;utils;withr
+translations,4.6.1,Part of R 4.6.1,review-required,,false,0,0,0,0,source-missing,
+units,1.0-1,GPL-2,copyleft,yes,true,42,4820,3,26,mixed-r-native-boundary,Rcpp
+utf8,1.2.6,Apache License (== 2.0) | file LICENSE,permissive-or-weak,yes,true,20,2846,37,7,mixed-r-native-boundary,
+utils,4.6.1,Part of R 4.6.1,review-required,yes,false,0,0,0,0,source-missing,
+vctrs,0.7.3,MIT + file LICENSE,permissive-or-weak,yes,true,185,53929,113,191,mixed-r-native-boundary,cli;glue;lifecycle;rlang
+viridisLite,0.4.3,MIT + file LICENSE,permissive-or-weak,no,true,4,350,0,0,pure-r-candidate,
+warp,0.2.3,MIT + file LICENSE,permissive-or-weak,yes,true,18,5246,10,9,mixed-r-native-boundary,
+withr,3.0.3,MIT + file LICENSE,permissive-or-weak,no,true,57,4761,0,0,pure-r-candidate,grDevices;graphics
+wk,0.9.5,MIT + file LICENSE,permissive-or-weak,yes,true,109,13644,31,37,mixed-r-native-boundary,
+xfun,0.60,MIT + file LICENSE,permissive-or-weak,yes,true,60,10534,3,3,mixed-r-native-boundary,grDevices;stats;tools
+XML,3.99-0.24,BSD_3_clause + file LICENSE,permissive-or-weak,yes,true,105,12718,16,126,mixed-r-native-boundary,methods;utils
+xts,0.14.2,GPL (>= 2),copyleft,yes,true,102,15246,28,57,mixed-r-native-boundary,methods;zoo
+yaml,2.3.12,BSD_3_clause + file LICENSE,permissive-or-weak,yes,true,15,2077,12,2,mixed-r-native-boundary,
+yyjsonr,0.1.22,MIT + file LICENSE,permissive-or-weak,yes,true,54,3775,10,25,mixed-r-native-boundary,
+zeallot,0.2.0,MIT + file LICENSE,permissive-or-weak,no,true,19,1345,0,0,pure-r-candidate,
+zip,3.0.2,MIT + file LICENSE,permissive-or-weak,yes,true,36,7178,18,21,mixed-r-native-boundary,cli
+zoo,1.9-0,GPL-2 | GPL-3,copyleft,yes,true,46,6509,3,1,mixed-r-native-boundary,grDevices;graphics;lattice;stats;utils

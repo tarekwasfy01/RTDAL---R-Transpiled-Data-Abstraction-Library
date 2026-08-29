@@ -1,0 +1,5 @@
+Package: later
+Version: 1.4.8
+Source: https://cran.r-project.org/package=later
+Declared-License: MIT + file LICENSE
+Transpile-Class: mixed-r-native-boundary

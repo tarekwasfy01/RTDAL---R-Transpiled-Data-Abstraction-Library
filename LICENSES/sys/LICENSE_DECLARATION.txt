@@ -1,0 +1,5 @@
+Package: sys
+Version: 3.4.3
+Source: https://cran.r-project.org/package=sys
+Declared-License: MIT + file LICENSE
+Transpile-Class: mixed-r-native-boundary

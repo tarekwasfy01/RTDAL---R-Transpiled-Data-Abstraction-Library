@@ -1,0 +1,5 @@
+Package: tidytransit
+Version: 1.8.0
+Source: https://cran.r-project.org/package=tidytransit
+Declared-License: GPL
+Transpile-Class: pure-r-candidate

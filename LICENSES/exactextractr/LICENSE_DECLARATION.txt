@@ -1,0 +1,5 @@
+Package: exactextractr
+Version: 0.10.1
+Source: https://cran.r-project.org/package=exactextractr
+Declared-License: Apache License (== 2.0)
+Transpile-Class: mixed-r-native-boundary

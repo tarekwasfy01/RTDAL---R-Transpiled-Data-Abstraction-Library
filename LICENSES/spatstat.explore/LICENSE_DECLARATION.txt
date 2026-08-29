@@ -1,0 +1,5 @@
+Package: spatstat.explore
+Version: 3.8-2
+Source: https://cran.r-project.org/package=spatstat.explore
+Declared-License: GPL (>= 2)
+Transpile-Class: mixed-r-native-boundary

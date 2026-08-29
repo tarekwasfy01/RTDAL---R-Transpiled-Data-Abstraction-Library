@@ -1,0 +1,5 @@
+Package: raster
+Version: 3.6-32
+Source: https://cran.r-project.org/package=raster
+Declared-License: GPL (>= 3)
+Transpile-Class: mixed-r-native-boundary

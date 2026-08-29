@@ -1,0 +1,5 @@
+Package: lmtest
+Version: 0.9-40
+Source: https://cran.r-project.org/package=lmtest
+Declared-License: GPL-2 | GPL-3
+Transpile-Class: mixed-r-native-boundary

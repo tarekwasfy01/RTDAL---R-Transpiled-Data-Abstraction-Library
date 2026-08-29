@@ -1,0 +1,5 @@
+Package: DEoptimR
+Version: 1.2-1
+Source: https://cran.r-project.org/package=DEoptimR
+Declared-License: GPL (>= 2)
+Transpile-Class: pure-r-candidate

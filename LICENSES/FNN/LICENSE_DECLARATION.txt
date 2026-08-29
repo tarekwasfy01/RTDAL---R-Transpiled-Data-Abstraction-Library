@@ -1,0 +1,5 @@
+Package: FNN
+Version: 1.1.4.1
+Source: https://cran.r-project.org/package=FNN
+Declared-License: GPL (>= 2)
+Transpile-Class: mixed-r-native-boundary

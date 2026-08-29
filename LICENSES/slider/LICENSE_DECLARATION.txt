@@ -1,0 +1,5 @@
+Package: slider
+Version: 0.3.3
+Source: https://cran.r-project.org/package=slider
+Declared-License: MIT + file LICENSE
+Transpile-Class: mixed-r-native-boundary

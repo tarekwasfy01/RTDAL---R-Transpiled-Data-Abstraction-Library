@@ -1,0 +1,5 @@
+Package: cpp11
+Version: 0.5.5
+Source: https://cran.r-project.org/package=cpp11
+Declared-License: MIT + file LICENSE
+Transpile-Class: mixed-r-native-boundary

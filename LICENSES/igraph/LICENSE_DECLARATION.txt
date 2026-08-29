@@ -1,0 +1,5 @@
+Package: igraph
+Version: 2.3.3
+Source: https://cran.r-project.org/package=igraph
+Declared-License: GPL (>= 2)
+Transpile-Class: mixed-r-native-boundary

@@ -1,0 +1,5 @@
+Package: RColorBrewer
+Version: 1.1-3
+Source: https://cran.r-project.org/package=RColorBrewer
+Declared-License: Apache License 2.0
+Transpile-Class: pure-r-candidate

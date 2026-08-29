@@ -1,0 +1,5 @@
+Package: stars
+Version: 0.7-3
+Source: https://cran.r-project.org/package=stars
+Declared-License: Apache License
+Transpile-Class: pure-r-candidate

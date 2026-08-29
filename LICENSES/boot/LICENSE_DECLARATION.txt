@@ -1,0 +1,5 @@
+Package: boot
+Version: 1.3-32
+Source: https://cran.r-project.org/package=boot
+Declared-License: Unlimited
+Transpile-Class: pure-r-candidate

@@ -1,0 +1,5 @@
+Package: spatstat.random
+Version: 3.5-1
+Source: https://cran.r-project.org/package=spatstat.random
+Declared-License: GPL (>= 2)
+Transpile-Class: mixed-r-native-boundary

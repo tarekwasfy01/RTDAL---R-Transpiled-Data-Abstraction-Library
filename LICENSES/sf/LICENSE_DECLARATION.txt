@@ -1,0 +1,5 @@
+Package: sf
+Version: 1.1-2
+Source: https://cran.r-project.org/package=sf
+Declared-License: GPL-2 | MIT + file LICENSE
+Transpile-Class: mixed-r-native-boundary

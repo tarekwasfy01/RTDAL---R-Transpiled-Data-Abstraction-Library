@@ -1,0 +1,5 @@
+Package: landscapemetrics
+Version: 2.2.1
+Source: https://cran.r-project.org/package=landscapemetrics
+Declared-License: GPL-3
+Transpile-Class: mixed-r-native-boundary

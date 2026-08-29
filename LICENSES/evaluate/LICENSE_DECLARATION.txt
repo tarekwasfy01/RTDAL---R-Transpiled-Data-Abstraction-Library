@@ -1,0 +1,5 @@
+Package: evaluate
+Version: 1.0.5
+Source: https://cran.r-project.org/package=evaluate
+Declared-License: MIT + file LICENSE
+Transpile-Class: pure-r-candidate

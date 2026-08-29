@@ -1,0 +1,5 @@
+Package: lifecycle
+Version: 1.0.5
+Source: https://cran.r-project.org/package=lifecycle
+Declared-License: MIT + file LICENSE
+Transpile-Class: pure-r-candidate

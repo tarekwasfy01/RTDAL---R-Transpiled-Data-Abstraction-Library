@@ -1,0 +1,5 @@
+Package: spatstat
+Version: 3.6-2
+Source: https://cran.r-project.org/package=spatstat
+Declared-License: GPL (>= 2)
+Transpile-Class: pure-r-candidate

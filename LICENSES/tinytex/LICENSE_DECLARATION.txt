@@ -1,0 +1,5 @@
+Package: tinytex
+Version: 0.60
+Source: https://cran.r-project.org/package=tinytex
+Declared-License: MIT + file LICENSE
+Transpile-Class: pure-r-candidate

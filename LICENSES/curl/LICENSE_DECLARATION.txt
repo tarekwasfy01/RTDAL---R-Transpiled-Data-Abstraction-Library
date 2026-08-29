@@ -1,0 +1,5 @@
+Package: curl
+Version: 7.1.0
+Source: https://cran.r-project.org/package=curl
+Declared-License: MIT + file LICENSE
+Transpile-Class: mixed-r-native-boundary

@@ -1,0 +1,5 @@
+Package: rappdirs
+Version: 0.3.4
+Source: https://cran.r-project.org/package=rappdirs
+Declared-License: MIT + file LICENSE
+Transpile-Class: mixed-r-native-boundary

@@ -1,0 +1,5 @@
+Package: S7
+Version: 0.2.2
+Source: https://cran.r-project.org/package=S7
+Declared-License: MIT + file LICENSE
+Transpile-Class: mixed-r-native-boundary

@@ -1,0 +1,5 @@
+Package: callr
+Version: 3.8.0
+Source: https://cran.r-project.org/package=callr
+Declared-License: MIT + file LICENSE
+Transpile-Class: mixed-r-native-boundary

@@ -1,0 +1,5 @@
+Package: spdep
+Version: 1.4-2
+Source: https://cran.r-project.org/package=spdep
+Declared-License: GPL (>= 2)
+Transpile-Class: mixed-r-native-boundary

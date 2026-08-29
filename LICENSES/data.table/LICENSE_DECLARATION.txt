@@ -1,0 +1,5 @@
+Package: data.table
+Version: 1.18.4
+Source: https://cran.r-project.org/package=data.table
+Declared-License: MPL-2.0 | file LICENSE
+Transpile-Class: mixed-r-native-boundary

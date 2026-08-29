@@ -1,0 +1,5 @@
+Package: snow
+Version: 0.4-4
+Source: https://cran.r-project.org/package=snow
+Declared-License: GPL
+Transpile-Class: mixed-r-native-boundary

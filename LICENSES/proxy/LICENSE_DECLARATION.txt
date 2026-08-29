@@ -1,0 +1,5 @@
+Package: proxy
+Version: 0.4-29
+Source: https://cran.r-project.org/package=proxy
+Declared-License: GPL-2 | GPL-3
+Transpile-Class: mixed-r-native-boundary

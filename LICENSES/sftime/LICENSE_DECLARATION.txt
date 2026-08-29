@@ -1,0 +1,5 @@
+Package: sftime
+Version: 0.3.2
+Source: https://cran.r-project.org/package=sftime
+Declared-License: Apache License
+Transpile-Class: pure-r-candidate

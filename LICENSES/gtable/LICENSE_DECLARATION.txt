@@ -1,0 +1,5 @@
+Package: gtable
+Version: 0.3.6
+Source: https://cran.r-project.org/package=gtable
+Declared-License: MIT + file LICENSE
+Transpile-Class: pure-r-candidate

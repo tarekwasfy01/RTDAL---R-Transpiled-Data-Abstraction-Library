@@ -1,0 +1,5 @@
+Package: hms
+Version: 1.1.4
+Source: https://cran.r-project.org/package=hms
+Declared-License: MIT + file LICENSE
+Transpile-Class: pure-r-candidate

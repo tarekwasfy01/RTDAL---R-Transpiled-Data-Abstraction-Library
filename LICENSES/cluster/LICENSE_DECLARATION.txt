@@ -1,0 +1,5 @@
+Package: cluster
+Version: 2.1.8.2
+Source: https://cran.r-project.org/package=cluster
+Declared-License: GPL (>= 2)
+Transpile-Class: mixed-r-native-boundary

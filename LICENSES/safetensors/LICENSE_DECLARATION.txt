@@ -1,0 +1,5 @@
+Package: safetensors
+Version: 0.3.0
+Source: https://cran.r-project.org/package=safetensors
+Declared-License: MIT + file LICENSE
+Transpile-Class: pure-r-candidate

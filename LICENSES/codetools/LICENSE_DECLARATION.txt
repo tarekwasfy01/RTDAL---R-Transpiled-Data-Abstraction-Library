@@ -1,0 +1,5 @@
+Package: codetools
+Version: 0.2-20
+Source: https://cran.r-project.org/package=codetools
+Declared-License: GPL
+Transpile-Class: pure-r-candidate

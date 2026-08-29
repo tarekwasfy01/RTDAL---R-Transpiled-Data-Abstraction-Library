@@ -1,0 +1,5 @@
+Package: rstac
+Version: 1.0.1
+Source: https://cran.r-project.org/package=rstac
+Declared-License: MIT + file LICENSE
+Transpile-Class: pure-r-candidate

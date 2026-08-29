@@ -1,0 +1,5 @@
+Package: purrr
+Version: 1.2.2
+Source: https://cran.r-project.org/package=purrr
+Declared-License: MIT + file LICENSE
+Transpile-Class: mixed-r-native-boundary

@@ -1,0 +1,5 @@
+Package: leaflet
+Version: 2.2.3
+Source: https://cran.r-project.org/package=leaflet
+Declared-License: MIT + file LICENSE
+Transpile-Class: pure-r-candidate

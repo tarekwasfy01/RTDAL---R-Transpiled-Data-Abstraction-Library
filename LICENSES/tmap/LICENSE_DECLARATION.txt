@@ -1,0 +1,5 @@
+Package: tmap
+Version: 4.4-1
+Source: https://cran.r-project.org/package=tmap
+Declared-License: GPL-3
+Transpile-Class: pure-r-candidate

@@ -1,0 +1,5 @@
+Package: dotCall64
+Version: 1.2
+Source: https://cran.r-project.org/package=dotCall64
+Declared-License: GPL (>= 2)
+Transpile-Class: mixed-r-native-boundary

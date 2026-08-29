@@ -1,0 +1,5 @@
+Package: cachem
+Version: 1.1.0
+Source: https://cran.r-project.org/package=cachem
+Declared-License: MIT + file LICENSE
+Transpile-Class: mixed-r-native-boundary

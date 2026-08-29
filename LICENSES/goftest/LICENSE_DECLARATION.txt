@@ -1,0 +1,5 @@
+Package: goftest
+Version: 1.2-3
+Source: https://cran.r-project.org/package=goftest
+Declared-License: GPL (>= 2)
+Transpile-Class: mixed-r-native-boundary

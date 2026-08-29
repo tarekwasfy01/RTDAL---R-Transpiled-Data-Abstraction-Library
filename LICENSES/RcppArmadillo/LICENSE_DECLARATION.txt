@@ -1,0 +1,5 @@
+Package: RcppArmadillo
+Version: 15.4.2-1
+Source: https://cran.r-project.org/package=RcppArmadillo
+Declared-License: GPL (>= 2)
+Transpile-Class: mixed-r-native-boundary

@@ -1,0 +1,5 @@
+Package: fs
+Version: 2.1.0
+Source: https://cran.r-project.org/package=fs
+Declared-License: MIT + file LICENSE
+Transpile-Class: mixed-r-native-boundary

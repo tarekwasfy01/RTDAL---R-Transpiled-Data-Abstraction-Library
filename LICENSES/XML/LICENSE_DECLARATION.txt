@@ -1,0 +1,5 @@
+Package: XML
+Version: 3.99-0.24
+Source: https://cran.r-project.org/package=XML
+Declared-License: BSD_3_clause + file LICENSE
+Transpile-Class: mixed-r-native-boundary

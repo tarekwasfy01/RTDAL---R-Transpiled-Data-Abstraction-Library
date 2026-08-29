@@ -1,0 +1,5 @@
+Package: crosstalk
+Version: 1.2.2
+Source: https://cran.r-project.org/package=crosstalk
+Declared-License: MIT + file LICENSE
+Transpile-Class: pure-r-candidate

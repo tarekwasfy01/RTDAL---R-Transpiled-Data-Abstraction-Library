@@ -1,0 +1,5 @@
+Package: snowfall
+Version: 1.84-6.3
+Source: https://cran.r-project.org/package=snowfall
+Declared-License: GPL
+Transpile-Class: pure-r-candidate

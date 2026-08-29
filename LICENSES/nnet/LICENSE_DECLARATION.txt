@@ -1,0 +1,5 @@
+Package: nnet
+Version: 7.3-20
+Source: https://cran.r-project.org/package=nnet
+Declared-License: GPL-2 | GPL-3
+Transpile-Class: mixed-r-native-boundary

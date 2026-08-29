@@ -1,0 +1,5 @@
+Package: BH
+Version: 1.90.0-1
+Source: https://cran.r-project.org/package=BH
+Declared-License: BSL-1.0
+Transpile-Class: pure-r-candidate

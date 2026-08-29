@@ -1,0 +1,5 @@
+Package: fastmap
+Version: 1.2.0
+Source: https://cran.r-project.org/package=fastmap
+Declared-License: MIT + file LICENSE
+Transpile-Class: mixed-r-native-boundary

@@ -1,0 +1,5 @@
+Package: leaflet.providers
+Version: 3.0.0
+Source: https://cran.r-project.org/package=leaflet.providers
+Declared-License: BSD_2_clause + file LICENSE
+Transpile-Class: pure-r-candidate

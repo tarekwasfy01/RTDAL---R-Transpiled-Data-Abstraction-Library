@@ -1,0 +1,5 @@
+Package: rapidjsonr
+Version: 1.2.1
+Source: https://cran.r-project.org/package=rapidjsonr
+Declared-License: MIT + file LICENSE
+Transpile-Class: pure-r-candidate

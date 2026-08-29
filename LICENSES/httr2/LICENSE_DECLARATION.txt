@@ -1,0 +1,5 @@
+Package: httr2
+Version: 1.3.0
+Source: https://cran.r-project.org/package=httr2
+Declared-License: MIT + file LICENSE
+Transpile-Class: pure-r-candidate

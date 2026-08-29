@@ -1,0 +1,5 @@
+Package: randomForest
+Version: 4.7-1.2
+Source: https://cran.r-project.org/package=randomForest
+Declared-License: GPL (>= 2)
+Transpile-Class: mixed-r-native-boundary

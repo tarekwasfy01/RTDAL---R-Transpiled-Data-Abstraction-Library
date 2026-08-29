@@ -1,0 +1,5 @@
+Package: mgcv
+Version: 1.9-4
+Source: https://cran.r-project.org/package=mgcv
+Declared-License: GPL (>= 2)
+Transpile-Class: mixed-r-native-boundary

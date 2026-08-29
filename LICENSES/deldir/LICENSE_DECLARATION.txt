@@ -1,0 +1,5 @@
+Package: deldir
+Version: 2.0-4
+Source: https://cran.r-project.org/package=deldir
+Declared-License: GPL (>= 2)
+Transpile-Class: mixed-r-native-boundary

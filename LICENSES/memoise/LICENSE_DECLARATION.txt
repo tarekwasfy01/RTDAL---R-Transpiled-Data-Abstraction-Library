@@ -1,0 +1,5 @@
+Package: memoise
+Version: 2.0.1
+Source: https://cran.r-project.org/package=memoise
+Declared-License: MIT + file LICENSE
+Transpile-Class: pure-r-candidate

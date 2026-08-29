@@ -1,0 +1,5 @@
+Package: httpuv
+Version: 1.6.17
+Source: https://cran.r-project.org/package=httpuv
+Declared-License: GPL (>= 2) | file LICENSE
+Transpile-Class: mixed-r-native-boundary

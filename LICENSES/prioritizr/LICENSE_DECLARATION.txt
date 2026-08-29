@@ -1,0 +1,5 @@
+Package: prioritizr
+Version: 8.1.0
+Source: https://cran.r-project.org/package=prioritizr
+Declared-License: GPL-3
+Transpile-Class: mixed-r-native-boundary

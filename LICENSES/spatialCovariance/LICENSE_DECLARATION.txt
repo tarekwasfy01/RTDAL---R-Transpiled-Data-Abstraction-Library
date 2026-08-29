@@ -1,0 +1,5 @@
+Package: spatialCovariance
+Version: 0.6-9
+Source: https://cran.r-project.org/package=spatialCovariance
+Declared-License: GPL
+Transpile-Class: pure-r-candidate

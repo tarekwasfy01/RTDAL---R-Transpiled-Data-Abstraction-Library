@@ -1,0 +1,5 @@
+Package: zeallot
+Version: 0.2.0
+Source: https://cran.r-project.org/package=zeallot
+Declared-License: MIT + file LICENSE
+Transpile-Class: pure-r-candidate

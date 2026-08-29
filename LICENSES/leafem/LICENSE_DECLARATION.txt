@@ -1,0 +1,5 @@
+Package: leafem
+Version: 0.2.5
+Source: https://cran.r-project.org/package=leafem
+Declared-License: MIT + file LICENSE
+Transpile-Class: pure-r-candidate

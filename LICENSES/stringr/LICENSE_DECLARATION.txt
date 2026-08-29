@@ -1,0 +1,5 @@
+Package: stringr
+Version: 1.6.0
+Source: https://cran.r-project.org/package=stringr
+Declared-License: MIT + file LICENSE
+Transpile-Class: pure-r-candidate

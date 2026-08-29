@@ -1,0 +1,5 @@
+Package: processx
+Version: 3.9.0
+Source: https://cran.r-project.org/package=processx
+Declared-License: MIT + file LICENSE
+Transpile-Class: mixed-r-native-boundary

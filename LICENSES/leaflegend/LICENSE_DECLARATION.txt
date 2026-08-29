@@ -1,0 +1,5 @@
+Package: leaflegend
+Version: 1.2.8
+Source: https://cran.r-project.org/package=leaflegend
+Declared-License: MIT + file LICENSE
+Transpile-Class: pure-r-candidate

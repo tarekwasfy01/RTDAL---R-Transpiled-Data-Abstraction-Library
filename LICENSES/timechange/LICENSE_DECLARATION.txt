@@ -1,0 +1,5 @@
+Package: timechange
+Version: 0.4.0
+Source: https://cran.r-project.org/package=timechange
+Declared-License: GPL (>= 3)
+Transpile-Class: mixed-r-native-boundary

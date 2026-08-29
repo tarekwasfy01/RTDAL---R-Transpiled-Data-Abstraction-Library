@@ -1,0 +1,5 @@
+Package: labeling
+Version: 0.4.3
+Source: https://cran.r-project.org/package=labeling
+Declared-License: MIT + file LICENSE | Unlimited
+Transpile-Class: pure-r-candidate

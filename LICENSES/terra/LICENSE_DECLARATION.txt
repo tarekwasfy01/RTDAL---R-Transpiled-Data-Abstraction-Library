@@ -1,0 +1,5 @@
+Package: terra
+Version: 1.9-46
+Source: https://cran.r-project.org/package=terra
+Declared-License: GPL (>= 3)
+Transpile-Class: mixed-r-native-boundary

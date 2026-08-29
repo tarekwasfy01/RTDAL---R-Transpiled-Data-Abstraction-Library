@@ -1,0 +1,5 @@
+Package: tensor
+Version: 1.5.1
+Source: https://cran.r-project.org/package=tensor
+Declared-License: GPL (>= 2)
+Transpile-Class: pure-r-candidate

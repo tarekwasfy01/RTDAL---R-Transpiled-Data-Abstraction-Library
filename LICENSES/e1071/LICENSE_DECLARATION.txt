@@ -1,0 +1,5 @@
+Package: e1071
+Version: 1.7-17
+Source: https://cran.r-project.org/package=e1071
+Declared-License: GPL-2 | GPL-3
+Transpile-Class: mixed-r-native-boundary

@@ -1,0 +1,5 @@
+Package: lazyeval
+Version: 0.2.3
+Source: https://cran.r-project.org/package=lazyeval
+Declared-License: GPL-3
+Transpile-Class: mixed-r-native-boundary

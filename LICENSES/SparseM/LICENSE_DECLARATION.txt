@@ -1,0 +1,5 @@
+Package: SparseM
+Version: 1.84-2
+Source: https://cran.r-project.org/package=SparseM
+Declared-License: GPL (>= 2)
+Transpile-Class: mixed-r-native-boundary

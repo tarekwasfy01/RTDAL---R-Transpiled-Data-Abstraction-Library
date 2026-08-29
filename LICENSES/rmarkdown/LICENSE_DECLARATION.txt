@@ -1,0 +1,5 @@
+Package: rmarkdown
+Version: 2.31
+Source: https://cran.r-project.org/package=rmarkdown
+Declared-License: GPL-3
+Transpile-Class: pure-r-candidate

@@ -1,0 +1,5 @@
+Package: generics
+Version: 0.1.4
+Source: https://cran.r-project.org/package=generics
+Declared-License: MIT + file LICENSE
+Transpile-Class: pure-r-candidate

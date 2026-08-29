@@ -1,0 +1,5 @@
+Package: cols4all
+Version: 0.10
+Source: https://cran.r-project.org/package=cols4all
+Declared-License: GPL-3
+Transpile-Class: pure-r-candidate

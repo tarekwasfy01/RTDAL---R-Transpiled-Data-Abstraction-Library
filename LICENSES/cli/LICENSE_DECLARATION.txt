@@ -1,0 +1,5 @@
+Package: cli
+Version: 3.6.6
+Source: https://cran.r-project.org/package=cli
+Declared-License: MIT + file LICENSE
+Transpile-Class: mixed-r-native-boundary

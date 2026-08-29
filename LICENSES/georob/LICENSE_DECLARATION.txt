@@ -1,0 +1,5 @@
+Package: georob
+Version: 0.3-23
+Source: https://cran.r-project.org/package=georob
+Declared-License: GPL (>= 2) | LGPL (>= 2)
+Transpile-Class: pure-r-candidate

@@ -1,0 +1,5 @@
+Package: ps
+Version: 1.9.3
+Source: https://cran.r-project.org/package=ps
+Declared-License: MIT + file LICENSE
+Transpile-Class: mixed-r-native-boundary

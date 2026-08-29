@@ -1,0 +1,5 @@
+Package: leafgl
+Version: 0.2.4
+Source: https://cran.r-project.org/package=leafgl
+Declared-License: MIT + file LICENSE
+Transpile-Class: pure-r-candidate

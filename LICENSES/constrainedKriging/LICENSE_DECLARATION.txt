@@ -1,0 +1,5 @@
+Package: constrainedKriging
+Version: 0.2-11
+Source: https://cran.r-project.org/package=constrainedKriging
+Declared-License: GPL (>= 2)
+Transpile-Class: mixed-r-native-boundary

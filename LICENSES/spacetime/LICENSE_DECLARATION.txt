@@ -1,0 +1,5 @@
+Package: spacetime
+Version: 1.3-3
+Source: https://cran.r-project.org/package=spacetime
+Declared-License: GPL (>= 2)
+Transpile-Class: pure-r-candidate

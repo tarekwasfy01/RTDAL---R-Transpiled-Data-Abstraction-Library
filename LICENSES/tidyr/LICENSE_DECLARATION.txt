@@ -1,0 +1,5 @@
+Package: tidyr
+Version: 1.3.2
+Source: https://cran.r-project.org/package=tidyr
+Declared-License: MIT + file LICENSE
+Transpile-Class: mixed-r-native-boundary

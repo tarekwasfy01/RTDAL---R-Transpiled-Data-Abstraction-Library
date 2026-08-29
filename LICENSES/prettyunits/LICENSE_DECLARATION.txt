@@ -1,0 +1,5 @@
+Package: prettyunits
+Version: 1.2.0
+Source: https://cran.r-project.org/package=prettyunits
+Declared-License: MIT + file LICENSE
+Transpile-Class: pure-r-candidate

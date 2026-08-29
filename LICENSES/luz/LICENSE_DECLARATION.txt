@@ -1,0 +1,5 @@
+Package: luz
+Version: 0.5.2
+Source: https://cran.r-project.org/package=luz
+Declared-License: MIT + file LICENSE
+Transpile-Class: pure-r-candidate

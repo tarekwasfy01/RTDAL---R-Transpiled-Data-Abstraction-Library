@@ -1,0 +1,5 @@
+Package: xfun
+Version: 0.60
+Source: https://cran.r-project.org/package=xfun
+Declared-License: MIT + file LICENSE
+Transpile-Class: mixed-r-native-boundary

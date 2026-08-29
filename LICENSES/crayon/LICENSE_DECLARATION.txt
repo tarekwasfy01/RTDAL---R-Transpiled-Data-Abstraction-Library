@@ -1,0 +1,5 @@
+Package: crayon
+Version: 1.5.3
+Source: https://cran.r-project.org/package=crayon
+Declared-License: MIT + file LICENSE
+Transpile-Class: pure-r-candidate

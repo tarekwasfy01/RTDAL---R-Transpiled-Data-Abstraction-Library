@@ -1,0 +1,5 @@
+Package: units
+Version: 1.0-1
+Source: https://cran.r-project.org/package=units
+Declared-License: GPL-2
+Transpile-Class: mixed-r-native-boundary

@@ -1,0 +1,5 @@
+Package: geojsonsf
+Version: 2.0.5
+Source: https://cran.r-project.org/package=geojsonsf
+Declared-License: MIT + file LICENSE
+Transpile-Class: mixed-r-native-boundary

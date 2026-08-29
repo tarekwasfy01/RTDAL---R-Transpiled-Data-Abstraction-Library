@@ -1,0 +1,5 @@
+Package: spatstat.sparse
+Version: 3.2-0
+Source: https://cran.r-project.org/package=spatstat.sparse
+Declared-License: GPL (>= 2)
+Transpile-Class: mixed-r-native-boundary

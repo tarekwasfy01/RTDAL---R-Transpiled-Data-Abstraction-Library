@@ -1,0 +1,5 @@
+Package: DBI
+Version: 1.3.0
+Source: https://cran.r-project.org/package=DBI
+Declared-License: LGPL (>= 2.1)
+Transpile-Class: pure-r-candidate

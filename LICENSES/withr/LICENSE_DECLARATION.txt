@@ -1,0 +1,5 @@
+Package: withr
+Version: 3.0.3
+Source: https://cran.r-project.org/package=withr
+Declared-License: MIT + file LICENSE
+Transpile-Class: pure-r-candidate

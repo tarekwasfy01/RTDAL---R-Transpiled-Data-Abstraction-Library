@@ -1,0 +1,5 @@
+Package: pillar
+Version: 1.11.1
+Source: https://cran.r-project.org/package=pillar
+Declared-License: MIT + file LICENSE
+Transpile-Class: pure-r-candidate

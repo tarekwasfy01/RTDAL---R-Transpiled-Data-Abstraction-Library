@@ -1,0 +1,5 @@
+Package: wk
+Version: 0.9.5
+Source: https://cran.r-project.org/package=wk
+Declared-License: MIT + file LICENSE
+Transpile-Class: mixed-r-native-boundary

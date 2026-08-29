@@ -1,0 +1,5 @@
+Package: assertthat
+Version: 0.2.1
+Source: https://cran.r-project.org/package=assertthat
+Declared-License: GPL-3
+Transpile-Class: pure-r-candidate

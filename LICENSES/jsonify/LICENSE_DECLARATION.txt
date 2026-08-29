@@ -1,0 +1,5 @@
+Package: jsonify
+Version: 1.2.3
+Source: https://cran.r-project.org/package=jsonify
+Declared-License: MIT + file LICENSE
+Transpile-Class: mixed-r-native-boundary

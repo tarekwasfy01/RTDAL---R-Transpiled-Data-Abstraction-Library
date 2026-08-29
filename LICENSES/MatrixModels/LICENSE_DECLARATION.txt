@@ -1,0 +1,5 @@
+Package: MatrixModels
+Version: 0.5-4
+Source: https://cran.r-project.org/package=MatrixModels
+Declared-License: GPL (>= 2)
+Transpile-Class: pure-r-candidate

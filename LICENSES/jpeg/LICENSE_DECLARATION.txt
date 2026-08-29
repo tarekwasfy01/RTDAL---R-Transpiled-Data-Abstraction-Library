@@ -1,0 +1,5 @@
+Package: jpeg
+Version: 0.1-11
+Source: https://cran.r-project.org/package=jpeg
+Declared-License: GPL-2 | GPL-3
+Transpile-Class: mixed-r-native-boundary

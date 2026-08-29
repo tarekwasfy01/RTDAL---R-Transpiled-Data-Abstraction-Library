@@ -1,0 +1,5 @@
+Package: highr
+Version: 0.12
+Source: https://cran.r-project.org/package=highr
+Declared-License: GPL
+Transpile-Class: pure-r-candidate

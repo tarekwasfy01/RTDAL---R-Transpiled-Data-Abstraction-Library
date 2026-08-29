@@ -1,0 +1,5 @@
+Package: bit64
+Version: 4.8.4
+Source: https://cran.r-project.org/package=bit64
+Declared-License: GPL-2 | GPL-3
+Transpile-Class: mixed-r-native-boundary

@@ -1,0 +1,5 @@
+Package: ape
+Version: 5.8-1
+Source: https://cran.r-project.org/package=ape
+Declared-License: GPL-2 | GPL-3
+Transpile-Class: mixed-r-native-boundary

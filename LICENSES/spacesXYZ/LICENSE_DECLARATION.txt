@@ -1,0 +1,5 @@
+Package: spacesXYZ
+Version: 1.6-0
+Source: https://cran.r-project.org/package=spacesXYZ
+Declared-License: GPL (>= 3)
+Transpile-Class: pure-r-candidate

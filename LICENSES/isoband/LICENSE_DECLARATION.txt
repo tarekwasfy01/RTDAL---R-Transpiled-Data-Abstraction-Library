@@ -1,0 +1,5 @@
+Package: isoband
+Version: 0.3.0
+Source: https://cran.r-project.org/package=isoband
+Declared-License: MIT + file LICENSE
+Transpile-Class: mixed-r-native-boundary

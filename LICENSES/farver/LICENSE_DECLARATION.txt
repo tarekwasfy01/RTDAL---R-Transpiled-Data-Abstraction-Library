@@ -1,0 +1,5 @@
+Package: farver
+Version: 2.1.2
+Source: https://cran.r-project.org/package=farver
+Declared-License: MIT + file LICENSE
+Transpile-Class: mixed-r-native-boundary

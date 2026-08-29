@@ -1,0 +1,5 @@
+Package: spData
+Version: 2.3.5
+Source: https://cran.r-project.org/package=spData
+Declared-License: CC0
+Transpile-Class: pure-r-candidate

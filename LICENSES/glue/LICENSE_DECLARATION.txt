@@ -1,0 +1,5 @@
+Package: glue
+Version: 1.8.1
+Source: https://cran.r-project.org/package=glue
+Declared-License: MIT + file LICENSE
+Transpile-Class: mixed-r-native-boundary

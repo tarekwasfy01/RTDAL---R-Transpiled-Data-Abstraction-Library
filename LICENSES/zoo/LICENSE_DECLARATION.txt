@@ -1,0 +1,5 @@
+Package: zoo
+Version: 1.9-0
+Source: https://cran.r-project.org/package=zoo
+Declared-License: GPL-2 | GPL-3
+Transpile-Class: mixed-r-native-boundary
