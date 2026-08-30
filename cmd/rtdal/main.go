@@ -7,13 +7,13 @@ import (
 	"path/filepath"
 	"sort"
 
-	"rtdal"
-	"rtdal/generated"
-	"rtdal/internal/command"
-	"rtdal/internal/cran"
-	"rtdal/internal/gui"
-	"rtdal/internal/operations"
-	"rtdal/internal/transpile"
+	"github.com/tarekwasfy01/RTDAL---R-Transpiled-Data-Abstraction-Library"
+	"github.com/tarekwasfy01/RTDAL---R-Transpiled-Data-Abstraction-Library/generated"
+	"github.com/tarekwasfy01/RTDAL---R-Transpiled-Data-Abstraction-Library/internal/command"
+	"github.com/tarekwasfy01/RTDAL---R-Transpiled-Data-Abstraction-Library/internal/cran"
+	"github.com/tarekwasfy01/RTDAL---R-Transpiled-Data-Abstraction-Library/internal/gui"
+	"github.com/tarekwasfy01/RTDAL---R-Transpiled-Data-Abstraction-Library/internal/operations"
+	"github.com/tarekwasfy01/RTDAL---R-Transpiled-Data-Abstraction-Library/internal/transpile"
 )
 
 var version = "development"

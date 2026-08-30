@@ -2,6 +2,11 @@
 
 RTDAL uses the following R packages as source and behavioural references. Each component retains its declared upstream licence.
 
+The GoPackage branch additionally includes the R2Go runtime and compiler (see
+`LICENSES/R2Go-LICENSE.txt`) and GNU R-derived translated entry points (see
+`LICENSES/GNU-R/NOTICE.md`, `COPYING`, and `COPYRIGHTS`). The root BSD licence
+does not replace these upstream licences. The combined module is not BSD/MIT-only.
+
 ## abind 1.4-8
 
 - Source: https://cran.r-project.org/package=abind

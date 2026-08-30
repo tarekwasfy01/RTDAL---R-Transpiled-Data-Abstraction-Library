@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"rtdal/internal/transpile"
+	"github.com/tarekwasfy01/RTDAL---R-Transpiled-Data-Abstraction-Library/internal/transpile"
 )
 
 func main() {

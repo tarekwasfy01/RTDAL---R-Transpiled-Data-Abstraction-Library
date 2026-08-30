@@ -19,9 +19,11 @@ if not exist dist mkdir dist
 set "GOCACHE=%CD%\.cache\go-build"
 set "GOMODCACHE=%CD%\.cache\go-mod"
 set "CGO_ENABLED=0"
+if not defined GOMEMLIMIT set "GOMEMLIMIT=4GiB"
+if not defined GOMAXPROCS set "GOMAXPROCS=2"
 
-echo [1/3] Testing RTDAL CLI and generators...
-"%GOEXE%" test ./cmd/rtdal ./cmd/rtdal-transpile ./internal/command ./internal/cran ./internal/transpile || exit /b 1
+echo [1/3] Testing RTDAL library, runtime, corpus and CLI...
+"%GOEXE%" test ./... || exit /b 1
 
 echo [2/3] Building Pure-Go Windows onefile...
 "%GOEXE%" build -trimpath -ldflags "-s -w -X main.version=0.1.0" -o dist\RTDAL.exe ./cmd/rtdal || exit /b 1
