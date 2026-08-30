@@ -2,6 +2,7 @@ name: Go package
 on:
   push:
     branches: [GoPackage]
+    tags: ['v*']
   pull_request:
     branches: [GoPackage]
 permissions:
