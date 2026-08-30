@@ -1,0 +1,31 @@
+name: Go package
+on:
+  push:
+    branches: [GoPackage]
+  pull_request:
+    branches: [GoPackage]
+permissions:
+  contents: read
+jobs:
+  test:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    env:
+      CGO_ENABLED: '0'
+      GOGC: '30'
+      GOMEMLIMIT: '4GiB'
+      GOMAXPROCS: '2'
+      GOFLAGS: '-p=2'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+          cache: false
+      - run: go test ./...
+      - run: go vet . ./corpus ./cmd/... ./internal/... ./toolchain/... ./tools/... ./examples/...
+      - run: go vet -unreachable=false ./...
+      - run: go build ./...
+      - run: go run ./examples/eval
