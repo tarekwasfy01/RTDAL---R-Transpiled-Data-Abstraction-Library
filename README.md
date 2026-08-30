@@ -1,5 +1,7 @@
 # RTDAL — Go package
 
+<a href="https://pkg.go.dev/github.com/tarekwasfy01/RTDAL---R-Transpiled-Data-Abstraction-Library"><img src="https://pkg.go.dev/badge/github.com/tarekwasfy01/RTDAL---R-Transpiled-Data-Abstraction-Library.svg" alt="Go Reference"></a>
+
 An importable, experimental Pure-Go R compatibility library, transpiler, and
 translated package corpus. Requires **Go 1.26 or newer**; no R installation,
 cgo, external Go module, or local `replace` directive is required.
