@@ -1,97 +1,72 @@
 # RTDAL
 
-RTDAL is a Pure-Go, R-transpiled data abstraction toolbox for GIS. The uniform command
-syntax is:
+RTDAL (R-Transpiled Data Abstraction Library) turns selected, licence-compatible
+R geospatial packages into reviewed Pure-Go building blocks. It is also a real
+package corpus for hardening the R2Go transpiler.
 
-```text
-rtdal <category> <command> [options]
-```
+The checked-in `R-Packages` directory is the version and licence inventory. The
+actual CRAN source archives are fetched reproducibly into the ignored `sources`
+directory.
 
-`available` commands work in the current build. `planned` commands have a
-stable, documented CLI contract but are not presented as implemented GIS work.
+## First package wave
 
-## Global commands
+| Package | Role | Licence | Initial treatment |
+| --- | --- | --- | --- |
+| `abind` | multidimensional array binding | MIT | Pure-Go foundation |
+| `stars` | spatiotemporal array/data-cube semantics | Apache | transpile R algorithms; replace `sf` boundaries |
+| `rstac` | STAC data access | MIT | transpile data/request logic; provide Go HTTP/JSON adapters |
+| `gtfsio` | transport data I/O | MIT | transpile schema and table logic; provide Go file adapters |
 
-| Command | What it does |
-| --- | --- |
-| `rtdal help` | Lists every command grouped by category. |
-| `rtdal help <category>` | Lists commands in one category. |
-| `rtdal help <category> <command>` | Shows syntax and a concise explanation for one command. |
-| `rtdal --version` | Prints the RTDAL version. |
-| `rtdal --license` | Lists bundled upstream licences and source provenance. |
-| `rtdal --gui` | Opens the RTDAL desktop toolbox. |
+Packages such as `sf`, `terra`, `raster`, `s2`, `lwgeom`, and `geosphere` remain
+in the compatibility matrix. Their R wrappers can be analysed, but native
+C/C++ algorithms and GPL boundaries are not presented as automatically
+translated Pure-Go code.
 
-## Corpus and source pipeline
-
-| Command | What it does |
-| --- | --- |
-| `rtdal corpus list` | Lists embedded transpiled packages and their library-source counts. |
-| `rtdal corpus sources --package <name>` | Lists every embedded source unit for a package. |
-| `rtdal corpus load --package <name>` | Loads library units into the Pure-Go runtime; isolated failures are reported and skipped. |
-| `rtdal source fetch [package ...]` | Downloads the exact CRAN source archive(s) from the local package inventory. |
-| `rtdal source fetch-all` | Downloads all available package archives and writes the fetch matrix. |
-| `rtdal source inventory` | Builds the source, native-boundary, dependency and licence inventory. |
-| `rtdal source licenses` | Regenerates preserved package licence and provenance material. |
-| `rtdal transpile corpus` | Transpiles every available R source, updates matrices and creates the combined Go corpus. |
-
-## Vector commands — planned
-
-| Command | What it does |
-| --- | --- |
-| `rtdal vector info --input <dataset>` | Inspects layers, fields, geometry, extent and CRS. |
-| `rtdal vector convert --input <dataset> --output <dataset>` | Converts vector datasets. |
-| `rtdal vector bbox --input <dataset>` | Calculates a vector bounding box. |
-| `rtdal vector reproject --input <dataset> --output <dataset> --target-crs <crs>` | Reprojects vector geometries. |
-| `rtdal vector buffer --input <dataset> --output <dataset> --distance <value>` | Creates geometry buffers. |
-| `rtdal vector simplify --input <dataset> --output <dataset> --tolerance <value>` | Simplifies geometries. |
-| `rtdal vector centroid --input <dataset> --output <dataset>` | Calculates centroids. |
-| `rtdal vector area --input <dataset> [--geodesic]` | Calculates feature areas. |
-| `rtdal vector length --input <dataset> [--geodesic]` | Calculates feature lengths. |
-| `rtdal vector distance --input <dataset> --other <dataset>` | Calculates geometry distances. |
-| `rtdal vector intersect --input <dataset> --other <dataset> --output <dataset>` | Intersects layers. |
-| `rtdal vector union --input <dataset> --output <dataset>` | Unions geometries. |
-| `rtdal vector difference --input <dataset> --other <dataset> --output <dataset>` | Subtracts geometries. |
-| `rtdal vector clip --input <dataset> --mask <dataset> --output <dataset>` | Clips a dataset. |
-| `rtdal vector validate --input <dataset> [--repair]` | Validates or repairs geometry. |
-
-## Raster commands — planned
-
-| Command | What it does |
-| --- | --- |
-| `rtdal raster info --input <dataset>` | Inspects size, bands, type, extent, transform and CRS. |
-| `rtdal raster convert --input <dataset> --output <dataset>` | Converts raster datasets. |
-| `rtdal raster crop --input <dataset> --output <dataset> --bbox <xmin,ymin,xmax,ymax>` | Crops a raster. |
-| `rtdal raster resample --input <dataset> --output <dataset> --resolution <x,y>` | Resamples a raster. |
-| `rtdal raster reproject --input <dataset> --output <dataset> --target-crs <crs>` | Warps to a target CRS. |
-| `rtdal raster mosaic --input <dataset...> --output <dataset>` | Mosaics raster inputs. |
-| `rtdal raster calc --input <dataset...> --output <dataset> --expression <expr>` | Evaluates a raster expression. |
-| `rtdal raster statistics --input <dataset>` | Calculates band statistics. |
-| `rtdal raster tile --input <dataset> --output <directory> --zoom <min:max>` | Generates raster tiles. |
-
-## Cube, STAC and GTFS — planned
-
-| Command | What it does |
-| --- | --- |
-| `rtdal cube info|subset|aggregate|merge|warp ...` | Inspects, subsets, aggregates, merges or warps spatiotemporal data cubes. |
-| `rtdal stac collections|search|assets|download ...` | Lists, searches, inspects or downloads STAC content. |
-| `rtdal gtfs info|validate|subset|export ...` | Inspects, validates, subsets or exports GTFS feeds. |
-
-## Geodesy and classification — planned
-
-| Command | What it does |
-| --- | --- |
-| `rtdal geodesy distance|bearing|destination|polygon-area ...` | Performs geodesic measurement and destination calculations. |
-| `rtdal classify equal|quantile|jenks|pretty --input <values> --classes <n>` | Builds common data-classification intervals. |
-
-## Reproducible local build
+## CLI
 
 ```powershell
-go run ./cmd/rtdal source fetch-all
-go run ./cmd/rtdal transpile corpus
+RTDAL.exe help
+RTDAL.exe help raster
+RTDAL.exe corpus list
+RTDAL.exe corpus sources --package abind
+RTDAL.exe corpus load --package abind
+RTDAL.exe --license
+```
+
+The command grammar is consistently `rtdal <category> <command> [options]`.
+`help` groups commands by topic and labels unfinished GIS commands as `planned`.
+The `corpus` commands operate on the transpiled package loaders embedded in the
+one-file executable. Only package library sources below `R/` are executed;
+tests, vignettes, tools, and legacy sources remain in the inventory but are not
+loaded as library code. A failing library source is reported and skipped so it
+does not prevent the remaining source units of that package from loading.
+
+Development commands reproduce the source and transpilation matrices:
+
+```powershell
+RTDAL.exe source fetch-all
+RTDAL.exe source inventory
+RTDAL.exe source licenses
+RTDAL.exe transpile corpus
+```
+
+`source fetch-all` downloads the exact versions named by the local DESCRIPTION
+files. `source inventory` writes `manifests/package_matrix.csv` with source,
+licence, R-code, native-code, and native-call counts. `transpile corpus` writes
+the per-file matrix, the explicit removal manifest, and the single combined Go
+translation unit.
+
+Every fetched component receives an exact declaration and preserved upstream
+licence files under `LICENSES/<package>`. `THIRD_PARTY_NOTICES.md` is generated
+from the same matrix, so translated source never loses its origin or licence.
+
+## Build
+
+```powershell
 .\build-rtdal-onefile.bat
 ```
 
-The source export deliberately excludes downloaded CRAN archives, Go caches,
-generated corpus output and release binaries. `manifests/` documents conversion
-coverage and omissions; `LICENSES/` and `THIRD_PARTY_NOTICES.md` preserve
-upstream licence material.
+The build uses `CGO_ENABLED=0` and produces `dist/RTDAL.exe`. The executable
+contains the Pure-Go compatibility runtime, the generated corpus, CLI help, and
+all collected licence texts. Native `.C`, `.Call`, and `.External` algorithms
+are not silently claimed as Pure Go; unsupported runtime paths remain explicit.
