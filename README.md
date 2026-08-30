@@ -4,16 +4,19 @@ An importable, experimental Pure-Go R compatibility library, transpiler, and
 translated package corpus. Requires **Go 1.26 or newer**; no R installation,
 cgo, external Go module, or local `replace` directive is required.
 
-## Install from this branch
+## Install
 
 Run inside your application's Go module:
 
 ```sh
-go get github.com/tarekwasfy01/RTDAL---R-Transpiled-Data-Abstraction-Library@GoPackage
+go get github.com/tarekwasfy01/RTDAL---R-Transpiled-Data-Abstraction-Library@v0.4.0
 ```
 
-Go records an immutable pseudo-version for the selected commit in your `go.mod`.
-Use `@GoPackage` explicitly: the default branch is not this library release.
+`v0.4.0` is the first Go-compatible module release. You can also use `@latest`
+to select the newest Go version tag, or `@GoPackage` for the development branch.
+Earlier product tags such as `RTDAL-v0.3` are not Go semantic-version tags.
+The repository's `main` branch still contains the older CLI layout; the version
+tag points to this importable library on `GoPackage`.
 
 ## Evaluate R from Go
 
