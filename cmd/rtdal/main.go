@@ -12,6 +12,7 @@ import (
 	"rtdal/internal/command"
 	"rtdal/internal/cran"
 	"rtdal/internal/gui"
+	"rtdal/internal/operations"
 	"rtdal/internal/transpile"
 )
 
@@ -151,7 +152,7 @@ func run(args []string) error {
 		}
 		return transpile.WriteAggregate(root, filepath.Join(root, "generated", "RTDAL_ALL_TRANSPILED.go"), results)
 	}
-	return fmt.Errorf("no handler for %q", category+" "+name)
+	return operations.Run(category, name, args[2:])
 }
 
 func optionValue(args []string, name string) (string, error) {
