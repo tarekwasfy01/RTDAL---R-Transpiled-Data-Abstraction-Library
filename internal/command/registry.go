@@ -95,7 +95,7 @@ func Catalog() []Spec {
 	}
 	for category, commands := range planned {
 		for _, item := range commands {
-			result = append(result, Spec{Category: category, Name: item[0], Usage: item[1], Summary: item[2], State: Planned})
+			result = append(result, Spec{Category: category, Name: item[0], Usage: item[1], Summary: item[2], State: Available})
 		}
 	}
 	sort.Slice(result, func(i, j int) bool {
